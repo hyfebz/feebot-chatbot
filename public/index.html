@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gemini AI Chatbot</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <div class="container">
-    <h1>Gemini AI Chatbot</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feebot | AI Chatbot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">Feebot | AI Chatbot</nav>
     <div id="chat-box" class="chat-box"></div>
-    <form id="chat-form">
-      <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" required />
+    <div id="welcome-text" class="welcome-text">
+      Apa yang sedang Anda pikirkan hari ini?
+    </div>
+    <form id="chat-form" class="form-center">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Tanyakan apa saja"
+        autocomplete="off"
+        required
+      />
       <button type="submit">Send</button>
     </form>
-  </div>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

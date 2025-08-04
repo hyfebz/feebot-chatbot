@@ -169,10 +169,7 @@ app.post("/generate-from-image", upload.single("image"), async (req, res) => {
 
 // 3. Generate From Document
 // Endpoint untuk menghasilkan teks dari dokumen
-app.post(
-  "/generate-from-document",
-  upload.single("document"),
-  async (req, res) => {
+app.post("/generate-from-document", upload.single("document"), async (req, res) => {
     try {
       const prompt = req.body?.prompt;
 
