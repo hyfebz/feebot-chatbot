@@ -1,6 +1,6 @@
-# 🤖 Gemini Chatbot
+# 🤖 Feebot Chatbot
 
-**Gemini Chatbot** adalah proyek latihan sederhana yang membangun chatbot AI menggunakan **Express.js** dan **Gemini AI Model** dari Google.
+**Feebot Chatbot** adalah proyek latihan sederhana yang membangun chatbot AI menggunakan **Express.js** dan **Gemini AI Model** dari Google.
 
 Project ini dibuat sebagai bagian dari pembelajaran dalam course online yang saya ikuti di **Hacktiv8**. Repository ini ditampilkan secara publik sebagai dokumentasi hasil belajar dan portofolio pribadi.
 
